@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escape Room - Montando a Função de Recomendação</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="titulo">
+  <h1>Escape Room: Monte sua Função de Recomendação de Filmes</h1>
+    <p class="texto_scape">Após responder corretamente, selecione o código liberado e cole dentro da função Gera
+        Recomendação</p>
+    </div>
+  
+
+    <div id="etapa1" class="etapa">
+        <h2>O que significa uma função em JavaScript?</h2>
+        <p>a) Uma estrutura para armazenar dados</p>
+        <p>b) Um bloco de código que executa uma tarefa</p>
+        <p>c) Um estilo de formatação visual</p>
+        <input type="text" id="resposta1" placeholder="Digite: a, b ou c">
+        <button onclick="verificarResposta(1)">Verificar</button>
+        <div id="codigo1" class="codigo"></div>
+    </div>
+
+    <div id="etapa2" class="etapa escondido">
+        <h2>Qual operador usamos para verificar se uma condição é verdadeira em um if?</h2>
+        <p>a) == ou ===</p>
+        <p>b) ++</p>
+        <p>c) &&</p>
+        <input type="text" id="resposta2" placeholder="Digite: a, b ou c">
+        <button onclick="verificarResposta(2)">Verificar</button>
+        <div id="codigo2" class="codigo"></div>
+    </div>
+
+    <div id="etapa3" class="etapa escondido">
+        <h2>Qual comando usamos para retornar um resultado dentro de uma função?</h2>
+        <p>a) console.log</p>
+        <p>b) return</p>
+        <p>c) break</p>
+        <input type="text" id="resposta3" placeholder="Digite: a, b ou c">
+        <button onclick="verificarResposta(3)">Verificar</button>
+        <div id="codigo3" class="codigo"></div>
+    </div>
+
+    <div id="etapa4" class="etapa escondido">
+        <h2>O que significa o operador lógico "||"?</h2>
+        <p>a) E lógico</p>
+        <p>b) Ou lógico</p>
+        <p>c) Negação</p>
+        <input type="text" id="resposta4" placeholder="Digite: a, b ou c">
+        <button onclick="verificarResposta(4)">Verificar</button>
+        <div id="codigo4" class="codigo"></div>
+    </div>
+
+    <div id="etapa5" class="etapa escondido">
+        <h2>Qual das opções abaixo representa uma estrutura condicional?</h2>
+        <p>a) for</p>
+        <p>b) if / else</p>
+        <p>c) function</p>
+        <input type="text" id="resposta5" placeholder="Digite: a, b ou c">
+        <button onclick="verificarResposta(5)">Verificar</button>
+        <div id="codigo5" class="codigo"></div>
+    </div>
+
+    <div id="etapa6" class="etapa escondido">
+        <h2>Qual comando usamos para verificar se o valor de uma variável é verdadeiro?</h2>
+        <p>a) if (variavel)</p>
+        <p>b) while (variavel)</p>
+        <p>c) for (variavel)</p>
+        <input type="text" id="resposta6" placeholder="Digite: a, b ou c">
+        <button onclick="verificarResposta(6)">Verificar</button>
+        <div id="codigo6" class="codigo"></div>
+    </div>
+
+    <div id="etapa7" class="etapa escondido">
+        <h2>Quando todas as condições anteriores são falsas, o que usamos?</h2>
+        <p>a) else</p>
+        <p>b) if</p>
+        <p>c) while</p>
+        <input type="text" id="resposta7" placeholder="Digite: a, b ou c">
+        <button onclick="verificarResposta(7)">Verificar</button>
+        <div id="codigo7" class="codigo"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
